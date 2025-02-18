@@ -1,0 +1,138 @@
+body {
+    background-color: #0d1117;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.github-logo {
+    height: 5%;
+    width: 5%;
+    margin-top: 40px;
+}
+
+.signin-text {
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 16px;
+    letter-spacing: -0.5px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+
+.login-container {
+    width: 308px;
+    margin: 16px auto;
+    padding: 16px;
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+}
+
+.login-form {
+    width: 100%;
+}
+
+.input-label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #c9d1d9;
+}
+
+.input-field {
+    width: 100%;
+    padding: 5px 12px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #c9d1d9;
+    background-color: #0d1117;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    height: 32px;
+}
+
+.forgot-password {
+    float: right;
+    font-size: 12px;
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 5px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #238636;
+    border: 1px solid rgba(240, 246, 252, 0.1);
+    border-radius: 6px;
+    cursor: pointer;
+    height: 32px;
+}
+
+.submit-button:hover {
+    background-color: #2ea043;
+}
+
+
+.passkey-container {
+    width: 308px;
+    margin: 16px auto;
+    padding: 16px;
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.passkey {
+    display: block;
+    color: #58a6ff;
+    text-decoration: none;
+    margin-bottom: 16px;
+}
+
+.passkey:hover {
+    text-decoration: underline;
+}
+
+.create-account-section {
+    color: #c9d1d9;
+    font-size: 14px;
+}
+
+.create-account {
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+.create-account:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.footer-link {
+    color: #8b949e;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 8px;
+}
+
+.footer-link:hover {
+    color: #58a6ff;
+    text-decoration: underline;
+}
